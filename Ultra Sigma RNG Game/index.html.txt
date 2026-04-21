@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultra Sigma Rarity Game</title>
+
+  <!-- your CSS goes here or linked externally -->
+</head>
+
+<body>
+
+  <div id="gameWrapper">
+    <h1 id="title">Ultra Sigma Rarity Game!</h1>
+
+    <p id="rarist">
+      Rarity: <span id="rarityValue">---</span>
+    </p>
+
+    <button>Roll</button>
+
+    <p id="rolls">Rolls: 0</p>
+
+    <p id="bestRarity">
+      Rarest Aura Discovered:
+      <span id="bestRarityName">None</span>
+      <span id="bestRarityOdds"></span>
+    </p>
+  </div>
+
+  <!-- overlays MUST be OUTSIDE -->
+  <div id="flash"></div>
+  <div id="realityOverlay"></div>
+  <div id="sparkleContainer"></div>
+
+  <div id="illusionalBlue"></div>
+  <div id="illusionalWhite"></div>
+  <div id="illusionalText">ILLUSIONAL</div>
+
+  <!-- your JS goes here or linked externally -->
+
+</body>
+
+</html>
